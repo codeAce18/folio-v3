@@ -1,0 +1,49 @@
+nav {
+    width: 90%;
+    max-width: 1100px;
+    height: 82px;
+    padding: 0 4rem;
+    border: 2px solid var(--light);
+    border-radius: 1.5rem;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: var(--dark);
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav .navLinks a {
+    color: var(--light);
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    transition: color 0.3s ease-in;
+
+}
+
+nav .navLinks a:hover {
+    color: var(--purple);
+}
+
+
+
+nav .navLinks  button {
+    background-color: var(--purple);
+    color: var(--light);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 6px 35px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1rem;
+    transition: background 0.3s ease-in;
+}
+
+nav .navLinks  button:hover {
+    background-color: var(--purple-hover);
+}

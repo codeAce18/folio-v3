@@ -1,0 +1,81 @@
+.hero {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.hero .left {
+    color: var(--light);
+    padding-top: 180px;
+}
+
+.hero .left h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.hero .left h1 span:last-child {
+    color: var(--gold);
+}
+
+.hero .left h1 span:first-child {
+    text-decoration: underline;
+}
+
+.hero .left h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.hero .left h3 span {
+    color: var(--gold);
+    text-transform: capitalize;
+}
+
+.hero .left button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: transparent;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+    margin-top: 50px;
+    transition: all .3s ease-in-out;
+    animation: glow 2s infinite linear;
+}
+
+.hero .left button:hover {
+    background-color: var(--purple);
+    color: var(--dark);
+}
+
+.hero .player {
+    width: 100%;
+    height: 100%;
+}
+
+.player-wrapper {
+    width: 75%;
+    position: absolute;
+    right: 40px;
+    top: -30px;
+    z-index: -1;
+}
+
+@keyframes glow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0px #000000;
+    }
+    60% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 5px #b68cf96d;
+    }
+    100% {
+        box-shadow: 0 0 0 20px #00000000;
+    }
+}

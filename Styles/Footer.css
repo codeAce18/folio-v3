@@ -1,0 +1,84 @@
+footer {
+    color: var(--dark);
+    align-items: flex-start !important;
+}
+
+footer h1 {
+    font-size: 50px;
+    font-weight: 500;
+    width: 550px;
+
+}
+
+
+footer p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+footer .mail {
+    color: var(--purple);
+    font-size: 25px;
+}
+
+footer .no {
+    color: var(--dark);
+    font-size: 20px;
+}
+
+footer .social {
+    margin-left: 5rem;
+    width: 100%;
+}
+
+footer .social a {
+    font-size: 25px;
+    color: var(--dark);
+    text-decoration: underline;
+    margin-right: 3rem;
+    line-height: 5rem;
+    transition: opacity 1s ease-in-out;
+}
+
+footer .social a:hover {
+    opacity: 0.5;
+}
+
+footer .social-links {
+    width: 500px;
+}
+
+footer .animation_wrapper {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+footer .animation_wrapper img {
+    width: 200px;
+    position: absolute;
+}
+
+footer .animation_wrapper img:nth-child(1) {
+    left: 0;
+    transform: rotate(16deg);
+}
+
+footer .animation_wrapper img:nth-child(2) {
+    left: 25%;
+    top: 12%;
+    transform: rotate(150deg);
+}
+
+footer .animation_wrapper img:nth-child(3) {
+    top: 35%;
+    left: 42%;
+    width: 150px;
+}
+
+footer .animation_wrapper img:nth-child(4) {
+    right: 0;
+}

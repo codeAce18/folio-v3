@@ -1,0 +1,50 @@
+.about-me {
+    margin-top: 15rem;
+    width: 85%;
+}
+
+.about-me .center-text {
+    color: var(--light);
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 300;
+    transition: all 1s ease-in ;
+}
+
+.about-me .first:hover {
+    opacity: 0.5;
+}
+
+.about-me .first span {
+    color: var(--gold);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.about-me .second {
+    width: 65%;
+    margin-top: 2rem;
+}
+
+.about-me .second:hover {
+    opacity: 0.5;
+}
+
+.about-me .third {
+    margin-top: 2rem;
+}
+
+.about-me .third:hover {
+    opacity: 0.5;
+}
+
+.about-me .fourth {
+    width: 65%;
+    margin-top: 2rem;
+}
+
+.about-me .fourth:hover {
+    opacity: 0.5;
+}
