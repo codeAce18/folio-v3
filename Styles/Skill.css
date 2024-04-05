@@ -58,3 +58,43 @@
     font-size: 20px;
     font-weight: 300;
 }
+
+
+/* ********** Responsive ************* */
+
+@media screen and (max-width: 1200px) {
+    .skills .boxes {
+        grid-gap: 2rem;
+    }
+
+    .skills .box {
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .skills .skill_title {
+        font-weight: 500;
+        margin: 1rem 0;
+
+    }
+
+    .skills h3 {
+        color: var(--dark);
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .skills {
+        margin-top: 5rem;
+    }
+
+    .skills .boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .skills .description {
+    text-align: start;
+    }
+}

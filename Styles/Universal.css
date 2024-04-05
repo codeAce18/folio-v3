@@ -73,3 +73,20 @@ button {
     cursor: pointer;
 }
 
+
+/* ******** Animation ********* */
+
+p, h1, h2, h3, a ,button {
+    transform: translateY(50%);
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.show {
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(0);
+}
+

@@ -29,6 +29,9 @@
     </div>
 
 
+    <div class="closeWrapper"></div>
+
+
     <!-- Navbar -->
 
     <nav class="flex-between">
@@ -38,14 +41,24 @@
 
         <div class="navLinks flex">
             <a href="#home">Home</a>
-            <a href="#feelourvibe">Feel our Vibe</a>
-            <a href="#feelthereel">Feel the Reel</a>
-            <a href="#ourteam">Our Team</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#myskills">My Skills</a>
+            <a href="#projects">Projects</a>
 
-            <button class="flex-center">Contact Me</button>
+            <a href="#contactme"><button class="flex-center">Contact Me</button></a>
         </div>
 
+        <button class="close">
+            <img src="Assets/cross.svg" alt="cross">
+        </button>
+
     </nav>
+
+
+
+    <!-- MenuBar -->
+
+    <img src="Assets/menu.svg" alt="menuBtn" class="menuButton">
 
 
     <!-- Hero -->
@@ -56,7 +69,7 @@
             <h1 class="text">
                 You're <span>looking</span> for a <br />  <span>Frontend Developer?</span>
             </h1>
-            <h3>That's me. The <span>golden ticket</span> to transforming digital dreams into captivating realities, where innovation meets user delight through mesmerizing interfaces and seamless interactions on the web.</h3>
+            <h3>That's me. The <span>golden ticket</span> to transforming your digital dreams into captivating realities, where innovation meets user delight through mesmerizing interfaces and seamless interactions on the web.</h3>
 
             <a href="#aboutme"><button>Know me more</button></a>
         </div>
@@ -76,9 +89,14 @@
 
     <!-- ABOUTME -->
 
-    <div class="about-me container" id="aboutme">
+
+    <div  id="aboutme"></div>
+
+
+
+    <div class="about-me container">
         <p class="center-text first">
-            Hey there, <span>I'm Joel</span>, an experienced frontend developer on a mission to redefine digital experiences through the fusion of design finesse and technical expertise. With a background steeped in the artistry of web development, I bring a wealth of knowledge in <span>HTML, CSS, and JavaScript</span> and some other JavaScript libraries like <span>Reactjs and Nextjs</span> to the table. My journey in this ever-evolving field has been marked by a relentless pursuit of excellence, fueled by a genuine passion for crafting intuitive interfaces that resonate with users on a profound level.<br/>
+            Hey there, <span>I'm Taiwo Joel</span>, an experienced frontend developer on a mission to redefine digital experiences through the fusion of design finesse and technical expertise. With a background steeped in the artistry of web development, I bring a wealth of knowledge in <span>HTML, CSS, and JavaScript</span> and some other JavaScript libraries like <span>Reactjs and Nextjs</span> to the table. My journey in this ever-evolving field has been marked by a relentless pursuit of excellence, fueled by a genuine passion for crafting intuitive interfaces that resonate with users on a profound level.<br/>
         </p>
           
         <p class="center-text second">
@@ -96,6 +114,8 @@
 
 
     <!-- SKILLS -->
+
+    <div id="myskills"></div>
 
     <div class="skills container">
         <h1 class="description text">
@@ -213,6 +233,10 @@
 
     <!-- MYWORK -->
 
+    <div  id="projects"></div>
+
+
+
     <div class="my-work container">
         <h1 class="fov_title text">What I Have Done</h1>
 
@@ -232,8 +256,8 @@
                                 Yougazine - product development
                             </h3>
                         </div>
-
-                        <button>View Live Demo</button>
+                        
+                        <a href="https://stage.yougazine.com/en" target="_blank"><button>View Live project</button></a>
                     </div>
 
                     <div class="image">
@@ -257,8 +281,8 @@
                                 Metalink - product development
                             </h3>
                         </div>
-
-                        <button>View Live Demo</button>
+                        
+                        <a href="https://nft-apps-techmoguls-projects.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -284,7 +308,7 @@
                             </h3>
                         </div>
 
-                        <button>View Live Demo</button>
+                        <a href="https://green-store-vert.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -308,8 +332,8 @@
                                 Gericht restaurant - design & development
                             </h3>
                         </div>
-
-                        <button>View Live Demo</button>
+                        
+                        <a href="https://gerich-restaurant-app-one.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -333,8 +357,8 @@
                                 HooBank - design & development
                             </h3>
                         </div>
-
-                        <button>View Live Demo</button>
+                        
+                        <a href="https://banking-app-ten-ruddy.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -359,7 +383,7 @@
                             </h3>
                         </div>
 
-                        <button>View Live Demo</button>
+                        <a href="https://search-img-app-theta.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -383,7 +407,7 @@
                             </h3>
                         </div>
 
-                        <button>View Live Demo</button>
+                        <a href="https://e-commerce-smoky-eight-80.vercel.app/" target="_blank"><button>View Live Demo</button></a>
                     </div>
 
                     <div class="image">
@@ -410,7 +434,7 @@
                 </h1>
 
                 <p>Drop me a message to discuss and bring your ideas to reality </p>
-                <button>Contact Me</button>
+                <a href="#contactme"><button>Contact Me</button></a>
             </div>
 
             <div class="anime">
@@ -426,30 +450,36 @@
 
     <!-- Footer -->
 
+    <div id="contactme"></div>
+
+
+
     <footer class="flex container">
         <div class="contacts">
             <h1 class="texts">Let's get to know each other</h1>
-            <p>Your golden ticket to all your creative ideas.</p>
-            <a href="mailto:oluwatofunmijoel765@gmail.com"><span class="mail">oluwatofunmijoel765@gmail.com</span></a><br/>
-            <a href="tel:+2349126233897"><span class="no">+2349126233897</span></a>
+            <p>I'm the <span>golden ticket</span>  to all your creative ideas.</p>
+            <div class="reach_me">
+                <a href="mailto:oluwatofunmijoel765@gmail.com" class="mail">oluwatofunmijoel765@gmail.com</a>
+            </div>
         </div>
 
         <div class="social">
             <div class="social-links">
-                <a href="">Twitter</a>
-                <a href="">GitHub</a>
-                <a href="">LinkedIn</a>
-                <a href="">Instagram</a>
+                <a href="https://twitter.com/JoelOluwatofun1" target="_blank">Twitter</a>
+                <a href="https://github.com/codeAce18" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/taiwo-joel-8b5321281/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/oluwatofunmijoel765/" target="_blank">Instagram</a>
             </div>
 
             <div class="animation_wrapper flex-around">
-                <img src="Assets/pic1.svg" alt="pic1">
-                <img src="Assets/pic2.svg" alt="pic2">
-                <img src="Assets/pic3.svg" alt="pic3">
-                <img src="Assets/pic4.svg" alt="pic4">
+                <img  src="Assets/pic1.svg" alt="pic1">
+                <img  src="Assets/pic2.svg" alt="pic2">
+                <img  src="Assets/pic3.svg" alt="pic3">
+                <img  src="Assets/pic4.svg" alt="pic4">
             </div>
         </div>
     </footer>
+
 
     <div class="endline"></div>
 

@@ -13,9 +13,9 @@
     transition: all 1s ease-in ;
 }
 
-.about-me .first:hover {
+/* .about-me .first:hover {
     opacity: 0.5;
-}
+} */
 
 .about-me .first span {
     color: var(--gold);
@@ -27,24 +27,55 @@
     width: 65%;
     margin-top: 2rem;
 }
-
+/* 
 .about-me .second:hover {
     opacity: 0.5;
-}
+} */
 
 .about-me .third {
     margin-top: 2rem;
 }
 
-.about-me .third:hover {
+/* .about-me .third:hover {
     opacity: 0.5;
-}
+} */
 
 .about-me .fourth {
     width: 65%;
     margin-top: 2rem;
 }
 
-.about-me .fourth:hover {
+/* .about-me .fourth:hover {
     opacity: 0.5;
+} */
+
+
+
+/* ****** Responsive ****** */
+
+@media screen and (max-width: 1200px ) {
+    .about-me {
+        margin-top: 25rem;
+        width: 100%;
+    }
+
+    .about-me .center-text {
+        width: 100%;
+        font-size: 28px;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about-me {
+        margin-top: 35rem;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .about-me .center-text {
+        width: 100%;
+        zoom: 1.5;
+        padding: 0;
+    }
 }

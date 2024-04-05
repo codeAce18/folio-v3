@@ -13,9 +13,7 @@ nav {
     background-color: var(--dark);
 }
 
-nav .logo img {
-    height: 50px;
-}
+
 
 nav .navLinks a {
     color: var(--light);
@@ -47,3 +45,97 @@ nav .navLinks  button {
 nav .navLinks  button:hover {
     background-color: var(--purple-hover);
 }
+
+.menuButton {
+    width: 80px;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    display: none;
+    z-index: 9;
+}
+
+nav .close {
+    display: none;
+}
+
+.closeWrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark);
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    display: none;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 1200px) {
+    nav {
+        width: 95%;
+        padding: 0 30px;
+        border-radius: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        position: fixed;
+        border: none;
+        height: 100svh;
+        min-height: 400px;
+        width: 250px;
+        top: 0;
+        left: unset;
+        right: -100%;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        transform: none;
+        border-radius: 0;
+        padding: 3rem 1.5rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav .navLinks {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+
+    nav .navLinks a {
+        margin: 0.5rem 0;
+    }
+
+  
+
+    nav .navLinks  button {
+        margin: 0;
+        position: absolute;
+        bottom: 2rem !important;
+        transform: translateY(0) !important;
+    }
+
+    .menuButton {
+        display: block;
+
+    }
+
+    nav .close {
+        display: block;
+        background: none;
+        border: none;
+        width: 20px;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    nav .close img {
+        width: 100%;
+    }
+} 
